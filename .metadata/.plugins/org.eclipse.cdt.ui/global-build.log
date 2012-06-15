@@ -1,0 +1,221 @@
+
+**** Clean-only build of configuration Debug for project mutex1 ****
+
+make clean 
+rm -rf  mutex1
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+Building file: ../dotprod_mutex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dotprod_mutex.d" -MT"dotprod_mutex.d" -o "dotprod_mutex.o" "../dotprod_mutex.c"
+Finished building: ../dotprod_mutex.c
+ 
+Building file: ../dotprod_serial.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dotprod_serial.d" -MT"dotprod_serial.d" -o "dotprod_serial.o" "../dotprod_serial.c"
+Finished building: ../dotprod_serial.c
+ 
+Building target: mutex1
+Invoking: Cross GCC Linker
+gcc  -o "mutex1"  ./dotprod_mutex.o ./dotprod_serial.o   
+/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o: In function `_start':
+(.text+0x18): undefined reference to `main'
+collect2: ld 回傳 1
+make: *** [mutex1] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+Building file: ../mutex2.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mutex2.d" -MT"mutex2.d" -o "mutex2.o" "../mutex2.c"
+../mutex2.c: In function 「main」:
+../mutex2.c:23:12: 警告： 未使用的變數 「mon_th_id」 [-Wunused-variable]
+../mutex2.c: In function 「pthread2」:
+../mutex2.c:63:6: 警告： 未使用的變數 「nolock」 [-Wunused-variable]
+Finished building: ../mutex2.c
+ 
+Building target: libmutex2.so
+Invoking: Cross GCC Linker
+gcc -shared -o "libmutex2.so"  ./mutex2.o   
+Finished building target: libmutex2.so
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+Building target: mutex1
+Invoking: Cross GCC Linker
+gcc  -o "mutex1"  ./dotprod_mutex.o ./dotprod_serial.o   
+/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o: In function `_start':
+(.text+0x18): undefined reference to `main'
+collect2: ld 回傳 1
+make: *** [mutex1] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+Building file: ../mutex2.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mutex2.d" -MT"mutex2.d" -o "mutex2.o" "../mutex2.c"
+../mutex2.c: In function 「pthread2」:
+../mutex2.c:63:6: 警告： 未使用的變數 「nolock」 [-Wunused-variable]
+Finished building: ../mutex2.c
+ 
+Building target: libmutex2.so
+Invoking: Cross GCC Linker
+gcc -shared -o "libmutex2.so"  ./mutex2.o   
+Finished building target: libmutex2.so
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+Building target: mutex1
+Invoking: Cross GCC Linker
+gcc  -o "mutex1"  ./dotprod_mutex.o ./dotprod_serial.o   
+/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o: In function `_start':
+(.text+0x18): undefined reference to `main'
+collect2: ld 回傳 1
+make: *** [mutex1] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+Building file: ../mutex2.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mutex2.d" -MT"mutex2.d" -o "mutex2.o" "../mutex2.c"
+Finished building: ../mutex2.c
+ 
+Building target: libmutex2.so
+Invoking: Cross GCC Linker
+gcc -shared -o "libmutex2.so"  ./mutex2.o   
+Finished building target: libmutex2.so
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+Building target: mutex1
+Invoking: Cross GCC Linker
+gcc  -o "mutex1"  ./dotprod_mutex.o ./dotprod_serial.o   
+/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o: In function `_start':
+(.text+0x18): undefined reference to `main'
+collect2: ld 回傳 1
+make: *** [mutex1] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+Building file: ../dotprod_serial.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dotprod_serial.d" -MT"dotprod_serial.d" -o "dotprod_serial.o" "../dotprod_serial.c"
+../dotprod_serial.c: In function 「main」:
+../dotprod_serial.c:97:1: 警告： control reaches end of non-void function [-Wreturn-type]
+Finished building: ../dotprod_serial.c
+ 
+Building target: mutex1
+Invoking: Cross GCC Linker
+gcc  -o "mutex1"  ./dotprod_mutex.o ./dotprod_serial.o   
+Finished building target: mutex1
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+Building file: ../dotprod_serial.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dotprod_serial.d" -MT"dotprod_serial.d" -o "dotprod_serial.o" "../dotprod_serial.c"
+Finished building: ../dotprod_serial.c
+ 
+Building target: mutex1
+Invoking: Cross GCC Linker
+gcc  -o "mutex1"  ./dotprod_mutex.o ./dotprod_serial.o   
+Finished building target: mutex1
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+Building file: ../dotprod_mutex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dotprod_mutex.d" -MT"dotprod_mutex.d" -o "dotprod_mutex.o" "../dotprod_mutex.c"
+Finished building: ../dotprod_mutex.c
+ 
+Building target: mutex1
+Invoking: Cross GCC Linker
+gcc  -o "mutex1"  ./dotprod_mutex.o   
+./dotprod_mutex.o: In function `main':
+/home/boris/github/c-practice/mutex1/Debug/../dotprod_mutex.c:135: undefined reference to `pthread_create'
+/home/boris/github/c-practice/mutex1/Debug/../dotprod_mutex.c:142: undefined reference to `pthread_join'
+collect2: ld 回傳 1
+make: *** [mutex1] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+Building file: ../dotprod_serial.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dotprod_serial.d" -MT"dotprod_serial.d" -o "dotprod_serial.o" "../dotprod_serial.c"
+Finished building: ../dotprod_serial.c
+ 
+Building target: libmutex2.so
+Invoking: Cross GCC Linker
+gcc -shared -o "libmutex2.so"  ./dotprod_serial.o   
+Finished building target: libmutex2.so
+ 
+
+**** Build Finished ****

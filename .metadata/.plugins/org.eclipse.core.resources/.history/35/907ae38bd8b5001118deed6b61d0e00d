@@ -1,0 +1,30 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../io/cmd_count.c \
+../io/fisc_shm.c \
+../io/shmw.c 
+
+OBJS += \
+./io/cmd_count.o \
+./io/fisc_shm.o \
+./io/shmw.o 
+
+C_DEPS += \
+./io/cmd_count.d \
+./io/fisc_shm.d \
+./io/shmw.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+io/%.o: ../io/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	gcc -I/usr/include -I"/home/boris/workspaces/workspace_c/fiscmonitor_hsm/m3000adt/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+
