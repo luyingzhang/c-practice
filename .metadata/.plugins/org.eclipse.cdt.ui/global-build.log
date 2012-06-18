@@ -219,3 +219,1777 @@ Finished building target: libmutex2.so
  
 
 **** Build Finished ****
+
+**** Clean-only build of configuration Debug for project mem_read ****
+
+make clean 
+rm -rf  mem_read
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+Building file: ../shmr.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shmr.d" -MT"shmr.d" -o "shmr.o" "../shmr.c"
+../shmr.c:11:1: 警告： 回傳類型預設為 「int」 [-Wreturn-type]
+../shmr.c: In function 「main」:
+../shmr.c:28:9: 警告： 隱含宣告函式 「exit」 [-Wimplicit-function-declaration]
+Finished building: ../shmr.c
+../shmr.c:28:9: 警告： 隱含宣告與內建函式 「exit」 不相容 [enabled by default]
+ 
+Building target: mem_read
+Invoking: Cross GCC Linker
+gcc  -o "mem_read"  ./shmr.o   
+../shmr.c:36:9: 警告： 隱含宣告與內建函式 「exit」 不相容 [enabled by default]
+../shmr.c:42:22: 警告： 比較指標和整數 [enabled by default]
+../shmr.c:53:5: 警告： 隱含宣告與內建函式 「exit」 不相容 [enabled by default]
+Finished building target: mem_read
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project mem_write ****
+
+make clean 
+rm -rf  mem_write
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+Building file: ../shmw.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shmw.d" -MT"shmw.d" -o "shmw.o" "../shmw.c"
+../shmw.c:8:1: 警告： 回傳類型預設為 「int」 [-Wreturn-type]
+../shmw.c: In function 「main」:
+../shmw.c:26:9: 警告： 隱含宣告函式 「exit」 [-Wimplicit-function-declaration]
+../shmw.c:26:9: 警告： 隱含宣告與內建函式 「exit」 不相容 [enabled by default]
+../shmw.c:34:9: 警告： 隱含宣告與內建函式 「exit」 不相容 [enabled by default]
+../shmw.c:45:8: 警告： 賦值時將指標賦給整數，未作類型轉換 [enabled by default]
+Finished building: ../shmw.c
+../shmw.c:54:9: 警告： 隱含宣告函式 「sleep」 [-Wimplicit-function-declaration]
+ 
+../shmw.c:56:5: 警告： 隱含宣告與內建函式 「exit」 不相容 [enabled by default]
+Building target: mem_write
+Invoking: Cross GCC Linker
+gcc  -o "mem_write"  ./shmw.o   
+Finished building target: mem_write
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+Building file: ../dotprod_mutex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dotprod_mutex.d" -MT"dotprod_mutex.d" -o "dotprod_mutex.o" "../dotprod_mutex.c"
+Finished building: ../dotprod_mutex.c
+ 
+Building target: mutex1
+Invoking: Cross GCC Linker
+gcc  -o "mutex1"  ./dotprod_mutex.o   
+./dotprod_mutex.o: In function `main':
+/home/boris/github/c-practice/mutex1/Debug/../dotprod_mutex.c:135: undefined reference to `pthread_create'
+/home/boris/github/c-practice/mutex1/Debug/../dotprod_mutex.c:142: undefined reference to `pthread_join'
+collect2: ld 回傳 1
+make: *** [mutex1] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+Building file: ../dotprod_serial.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dotprod_serial.d" -MT"dotprod_serial.d" -o "dotprod_serial.o" "../dotprod_serial.c"
+Finished building: ../dotprod_serial.c
+ 
+Building target: libmutex2.so
+Invoking: Cross GCC Linker
+gcc -shared -o "libmutex2.so"  ./dotprod_serial.o   
+Finished building target: libmutex2.so
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project vowel1 ****
+
+make all 
+Building file: ../check1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"check1.d" -MT"check1.d" -o "check1.o" "../check1.c"
+../check1.c:3:1: 警告： 回傳類型預設為 「int」 [-Wreturn-type]
+Finished building: ../check1.c
+ 
+Building target: libvowel1.so
+Invoking: Cross GCC Linker
+gcc -shared -o "libvowel1.so"  ./check1.o   
+Finished building target: libvowel1.so
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+Building target: mutex1
+Invoking: Cross GCC Linker
+gcc  -o "mutex1"  ./dotprod_mutex.o   
+./dotprod_mutex.o: In function `main':
+/home/boris/github/c-practice/mutex1/Debug/../dotprod_mutex.c:135: undefined reference to `pthread_create'
+/home/boris/github/c-practice/mutex1/Debug/../dotprod_mutex.c:142: undefined reference to `pthread_join'
+collect2: ld 回傳 1
+make: *** [mutex1] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project vowel1 ****
+
+make all 
+Building file: ../check1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"check1.d" -MT"check1.d" -o "check1.o" "../check1.c"
+Finished building: ../check1.c
+ 
+Building target: libvowel1.so
+Invoking: Cross GCC Linker
+gcc -shared -o "libvowel1.so"  ./check1.o   
+Finished building target: libvowel1.so
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+Building file: ../dotprod_mutex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -pthread -c -fmessage-length=0 -MMD -MP -MF"dotprod_mutex.d" -MT"dotprod_mutex.d" -o "dotprod_mutex.o" "../dotprod_mutex.c"
+Finished building: ../dotprod_mutex.c
+ 
+Building target: mutex1
+Invoking: Cross GCC Linker
+gcc  -o "mutex1"  ./dotprod_mutex.o   -lpthread
+Finished building target: mutex1
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project vowel1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project vowel1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project vowel1 ****
+
+make all 
+Building file: ../check1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"check1.d" -MT"check1.d" -o "check1.o" "../check1.c"
+../check1.c:3:5: 警告： 「main」 只帶零或兩個參數 [-Wmain]
+Finished building: ../check1.c
+ 
+Building target: libvowel1.so
+Invoking: Cross GCC Linker
+gcc -shared -o "libvowel1.so"  ./check1.o   
+Finished building target: libvowel1.so
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project vowel1 ****
+
+make all 
+Building file: ../check1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"check1.d" -MT"check1.d" -o "check1.o" "../check1.c"
+Finished building: ../check1.c
+ 
+Building target: libvowel1.so
+Invoking: Cross GCC Linker
+gcc -shared -o "libvowel1.so"  ./check1.o   
+Finished building target: libvowel1.so
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project vowel1 ****
+
+make all 
+Building file: ../check1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"check1.d" -MT"check1.d" -o "check1.o" "../check1.c"
+Finished building: ../check1.c
+ 
+Building target: libvowel1.so
+Invoking: Cross GCC Linker
+gcc -shared -o "libvowel1.so"  ./check1.o   
+Finished building target: libvowel1.so
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project vowel1 ****
+
+make all 
+Building file: ../check1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"check1.d" -MT"check1.d" -o "check1.o" "../check1.c"
+Finished building: ../check1.c
+ 
+Building target: libvowel1.so
+Invoking: Cross GCC Linker
+gcc -shared -o "libvowel1.so"  ./check1.o   
+Finished building target: libvowel1.so
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project vowel1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project vowel2 ****
+
+make all 
+Building file: ../src/vowel2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/vowel2.d" -MT"src/vowel2.d" -o "src/vowel2.o" "../src/vowel2.c"
+Finished building: ../src/vowel2.c
+ 
+Building target: vowel2
+Invoking: GCC C Linker
+gcc  -o "vowel2"  ./src/vowel2.o   
+Finished building target: vowel2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project vowel2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project vowel2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project check_test ****
+
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../money.1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"money.1.d" -MT"money.1.d" -o "money.1.o" "../money.1.c"
+Finished building: ../money.1.c
+ 
+Building file: ../money.3.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"money.3.d" -MT"money.3.d" -o "money.3.o" "../money.3.c"
+Finished building: ../money.3.c
+ 
+Building file: ../money.4.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"money.4.d" -MT"money.4.d" -o "money.4.o" "../money.4.c"
+Finished building: ../money.4.c
+ 
+Building file: ../money.5.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"money.5.d" -MT"money.5.d" -o "money.5.o" "../money.5.c"
+Finished building: ../money.5.c
+ 
+Building file: ../money.6.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"money.6.d" -MT"money.6.d" -o "money.6.o" "../money.6.c"
+Finished building: ../money.6.c
+ 
+Building file: ../money.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"money.d" -MT"money.d" -o "money.o" "../money.c"
+Finished building: ../money.c
+ 
+Building target: check_test
+Invoking: Cross GCC Linker
+gcc  -o "check_test"  ./main.o ./money.1.o ./money.3.o ./money.4.o ./money.5.o ./money.6.o ./money.o   
+./money.4.o: In function `money_create':
+/home/boris/github/c-practice/check_test/Debug/../money.4.c:11: multiple definition of `money_create'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:6: first defined here
+./money.4.o: In function `money_amount':
+/home/boris/github/c-practice/check_test/Debug/../money.4.c:17: multiple definition of `money_amount'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:12: first defined here
+./money.4.o: In function `money_currency':
+/home/boris/github/c-practice/check_test/Debug/../money.4.c:23: multiple definition of `money_currency'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:18: first defined here
+./money.4.o: In function `money_free':
+/home/boris/github/c-practice/check_test/Debug/../money.4.c:29: multiple definition of `money_free'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:24: first defined here
+./money.5.o: In function `money_create':
+/home/boris/github/c-practice/check_test/Debug/../money.5.c:12: multiple definition of `money_create'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:6: first defined here
+./money.5.o: In function `money_amount':
+/home/boris/github/c-practice/check_test/Debug/../money.5.c:26: multiple definition of `money_amount'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:12: first defined here
+./money.5.o: In function `money_currency':
+/home/boris/github/c-practice/check_test/Debug/../money.5.c:32: multiple definition of `money_currency'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:18: first defined here
+./money.5.o: In function `money_free':
+/home/boris/github/c-practice/check_test/Debug/../money.5.c:38: multiple definition of `money_free'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:24: first defined here
+./money.6.o: In function `money_create':
+/home/boris/github/c-practice/check_test/Debug/../money.6.c:12: multiple definition of `money_create'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:6: first defined here
+./money.6.o: In function `money_amount':
+/home/boris/github/c-practice/check_test/Debug/../money.6.c:31: multiple definition of `money_amount'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:12: first defined here
+./money.6.o: In function `money_currency':
+/home/boris/github/c-practice/check_test/Debug/../money.6.c:37: multiple definition of `money_currency'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:18: first defined here
+./money.6.o: In function `money_free':
+/home/boris/github/c-practice/check_test/Debug/../money.6.c:43: multiple definition of `money_free'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:24: first defined here
+./money.o: In function `money_create':
+/home/boris/github/c-practice/check_test/Debug/../money.c:12: multiple definition of `money_create'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:6: first defined here
+./money.o: In function `money_amount':
+/home/boris/github/c-practice/check_test/Debug/../money.c:31: multiple definition of `money_amount'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:12: first defined here
+./money.o: In function `money_currency':
+/home/boris/github/c-practice/check_test/Debug/../money.c:37: multiple definition of `money_currency'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:18: first defined here
+./money.o: In function `money_free':
+/home/boris/github/c-practice/check_test/Debug/../money.c:43: multiple definition of `money_free'
+./money.3.o:/home/boris/github/c-practice/check_test/Debug/../money.3.c:24: first defined here
+collect2: ld 回傳 1
+make: *** [check_test] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project vowel2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project check_test ****
+
+make all 
+Building target: check_test
+Invoking: Cross GCC Linker
+gcc  -o "check_test"  ./main.o ./money.1.o   
+Finished building target: check_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project vowel2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project minunit1 ****
+
+make all 
+make: *** No rule to make target `all'.  Stop.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project minunit1 ****
+
+make all 
+make: *** No rule to make target `all'.  Stop.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../calculator.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"calculator.d" -MT"calculator.d" -o "calculator.o" "../calculator.c"
+Finished building: ../calculator.c
+ 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+../sample1.c: In function 「test_add」:
+../sample1.c:29:6: 警告： 隱含宣告函式 「add」 [-Wimplicit-function-declaration]
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+../sample1.c: In function 「test_add」:
+../sample1.c:29:6: 警告： 隱含宣告函式 「add」 [-Wimplicit-function-declaration]
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+../sample1.c: In function 「test_add」:
+../sample1.c:29:6: 警告： 隱含宣告函式 「add」 [-Wimplicit-function-declaration]
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+../sample1.c: In function 「test_add」:
+../sample1.c:29:6: 警告： 隱含宣告函式 「add」 [-Wimplicit-function-declaration]
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+../sample1.c: In function 「test_substract」:
+../sample1.c:29:6: 警告： 隱含宣告函式 「add」 [-Wimplicit-function-declaration]
+../sample1.c: In function 「all_tests」:
+../sample1.c:36:6: 警告： 隱含宣告函式 「test_add」 [-Wimplicit-function-declaration]
+../sample1.c:36:6: 警告： 初始化時將整數賦給指標，未作類型轉換 [enabled by default]
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+../sample1.c: 在頂層：
+../sample1.c:28:16: 警告： 「test_substract」 定義後未使用 [-Wunused-function]
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+./sample1.o: In function `all_tests':
+/home/boris/github/c-practice/minunit2/Debug/../sample1.c:36: undefined reference to `test_add'
+collect2: ld 回傳 1
+make: *** [minunit2] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+../sample1.c: In function 「test_substract」:
+../sample1.c:29:6: 警告： 隱含宣告函式 「add」 [-Wimplicit-function-declaration]
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+../sample1.c: In function 「test_substract」:
+../sample1.c:29:6: 警告： 隱含宣告函式 「substract」 [-Wimplicit-function-declaration]
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+../sample1.c:32:16: 警告： 「test_substract」 定義後未使用 [-Wunused-function]
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+../sample1.c: In function 「all_tests」:
+../sample1.c:41:6: 警告： 隱含宣告函式 「test_add」 [-Wimplicit-function-declaration]
+../sample1.c:41:6: 警告： 初始化時將整數賦給指標，未作類型轉換 [enabled by default]
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+./sample1.o: In function `all_tests':
+/home/boris/github/c-practice/minunit2/Debug/../sample1.c:41: undefined reference to `test_add'
+collect2: ld 回傳 1
+make: *** [minunit2] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+../sample1.c: In function 「test_add」:
+../sample1.c:38:6: 警告： 隱含宣告函式 「add」 [-Wimplicit-function-declaration]
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit3 ****
+
+make all 
+Building file: ../calculator.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"calculator.d" -MT"calculator.d" -o "calculator.o" "../calculator.c"
+Finished building: ../calculator.c
+ 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+../sample1.c: In function 「test_add」:
+../sample1.c:38:6: 警告： 隱含宣告函式 「add」 [-Wimplicit-function-declaration]
+Finished building: ../sample1.c
+ 
+Building target: libminunit3.so
+Invoking: Cross GCC Linker
+gcc -shared -o "libminunit3.so"  ./calculator.o ./sample1.o   
+Finished building target: libminunit3.so
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+Building file: ../calculator.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"calculator.d" -MT"calculator.d" -o "calculator.o" "../calculator.c"
+Finished building: ../calculator.c
+ 
+Building file: ../sample1.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sample1.d" -MT"sample1.d" -o "sample1.o" "../sample1.c"
+../sample1.c: In function 「test_substract」:
+../sample1.c:29:6: 警告： 隱含宣告函式 「substract」 [-Wimplicit-function-declaration]
+../sample1.c: In function 「test_add」:
+../sample1.c:34:6: 警告： 隱含宣告函式 「add」 [-Wimplicit-function-declaration]
+Finished building: ../sample1.c
+ 
+Building target: minunit2
+Invoking: Cross GCC Linker
+gcc  -o "minunit2"  ./calculator.o ./sample1.o   
+Finished building target: minunit2
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_read ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mem_write ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project minunit2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project mutex2 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****

@@ -1,0 +1,11 @@
+
+**** Build of configuration Debug for project check_test ****
+
+make all 
+Building target: check_test
+Invoking: Cross GCC Linker
+gcc  -o "check_test"  ./main.o ./money.1.o   
+Finished building target: check_test
+ 
+
+**** Build Finished ****

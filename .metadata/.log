@@ -24,3 +24,209 @@ Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.pa
 
 !ENTRY org.eclipse.cdt.core 1 0 2012-06-15 07:02:12.198
 !MESSAGE Indexed 'mutex2' (0 sources, 45 headers) in 0.23 sec: 734 declarations; 868 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2012-06-15 23:34:25.406 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.linuxtools.product -product org.eclipse.epp.package.linuxtools.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.linuxtools.product -data /home/boris/github/c-practice -product org.eclipse.epp.package.linuxtools.product
+
+!ENTRY org.eclipse.ui.workbench 4 2 2012-06-15 23:34:28.489
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 1
+org.eclipse.ui.WorkbenchException: The markup in the document preceding the root element must be well-formed.
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:143)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:65)
+	at org.eclipse.ui.internal.Workbench$54.run(Workbench.java:2093)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.restoreState(Workbench.java:2088)
+	at org.eclipse.ui.internal.WorkbenchConfigurer.restoreState(WorkbenchConfigurer.java:183)
+	at org.eclipse.ui.application.WorkbenchAdvisor$1.run(WorkbenchAdvisor.java:781)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:391)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1391)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:902)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:625)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:488)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:819)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:748)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:239)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:288)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:116)
+	... 6 more
+!SUBENTRY 1 org.eclipse.ui 4 0 2012-06-15 23:34:28.490
+!MESSAGE The markup in the document preceding the root element must be well-formed.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:391)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1391)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:902)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:625)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:488)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:819)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:748)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:239)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:288)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:116)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:65)
+	at org.eclipse.ui.internal.Workbench$54.run(Workbench.java:2093)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.restoreState(Workbench.java:2088)
+	at org.eclipse.ui.internal.WorkbenchConfigurer.restoreState(WorkbenchConfigurer.java:183)
+	at org.eclipse.ui.application.WorkbenchAdvisor$1.run(WorkbenchAdvisor.java:781)
+!SUBENTRY 1 org.eclipse.ui 4 0 2012-06-15 23:34:28.490
+!MESSAGE The markup in the document preceding the root element must be well-formed.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; The markup in the document preceding the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:391)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1391)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:902)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:625)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:488)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:819)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:748)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:123)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:239)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:288)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:116)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:65)
+	at org.eclipse.ui.internal.Workbench$54.run(Workbench.java:2093)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.restoreState(Workbench.java:2088)
+	at org.eclipse.ui.internal.WorkbenchConfigurer.restoreState(WorkbenchConfigurer.java:183)
+	at org.eclipse.ui.application.WorkbenchAdvisor$1.run(WorkbenchAdvisor.java:781)
+
+!ENTRY org.eclipse.ui 4 4 2012-06-15 23:34:30.476
+!MESSAGE Plugin org.eclipse.linuxtools.callgraph, extension org.eclipse.ui.perspectiveExtensions, id org.eclipse.linuxtools.callgraph.callgraphview: Attribute 'relative' not defined.  This attribute is required when relationship="stack".
+
+!ENTRY org.eclipse.ui 4 4 2012-06-15 23:34:30.477
+!MESSAGE Unable to process element: view in perspective extension: null
+!SESSION 2012-06-15 23:35:02.966 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.linuxtools.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.linuxtools.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-06-16 08:23:55.677
+!MESSAGE Indexed 'vowel1' (0 sources, 45 headers) in 0.41 sec: 734 declarations; 868 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-06-16 08:38:32.402
+!MESSAGE Indexed 'vowel2' (1 sources, 55 headers) in 0.41 sec: 1,491 declarations; 1,869 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2012-06-16 10:05:15.393 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.linuxtools.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.linuxtools.product
+
+!ENTRY org.eclipse.cdt.testsrunner.boost 4 4 2012-06-16 10:21:46.933
+!MESSAGE XML fatal error: Content is not allowed in prolog.
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-06-16 11:59:28.894
+!MESSAGE Indexed 'check_test' (0 sources, 45 headers) in 0.42 sec: 734 declarations; 868 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2012-06-18 23:33:42.744 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.linuxtools.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.linuxtools.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-06-19 00:21:46.458
+!MESSAGE Indexed 'minunit1' (0 sources, 45 headers) in 0.40 sec: 734 declarations; 868 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-06-19 00:24:01.941
+!MESSAGE Indexed 'minunit2' (0 sources, 45 headers) in 0.24 sec: 734 declarations; 868 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-06-19 00:41:31.297
+!MESSAGE Indexed 'minunit3' (0 sources, 45 headers) in 0.21 sec: 734 declarations; 868 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.help.base 4 4 2012-06-19 00:43:01.554
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-19 00:43:01.554
+!MESSAGE Parse error occurred while adding document /org.eclipse.linuxtools.systemtap.ui.ide/documentation/html/gettingstarted/IDETutorial/lesson3.html to search index /home/boris/runnable/eclipse-linuxtool-indigo/configuration/org.eclipse.help.base/index/zh_TW.
+!STACK 0
+org.apache.lucene.demo.html.ParseException: Encountered "<EOF>" at line 59, column 59.
+Was expecting:
+    <CloseQuote2> ...
+    
+	at org.apache.lucene.demo.html.HTMLParser.generateParseException(HTMLParser.java:692)
+	at org.apache.lucene.demo.html.HTMLParser.jj_consume_token(HTMLParser.java:573)
+	at org.apache.lucene.demo.html.HTMLParser.ArgValue(HTMLParser.java:330)
+	at org.apache.lucene.demo.html.HTMLParser.Tag(HTMLParser.java:263)
+	at org.apache.lucene.demo.html.HTMLParser.HTMLDocument(HTMLParser.java:190)
+	at org.apache.lucene.demo.html.HTMLParser.parse(HTMLParser.java:93)
+	at org.eclipse.help.internal.search.HTMLDocParser.openDocument(HTMLDocParser.java:86)
+	at org.eclipse.help.internal.search.HTMLSearchParticipant.addDocument(HTMLSearchParticipant.java:58)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:230)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:252)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-19 00:43:01.554
+!MESSAGE Parse error occurred while adding document /org.eclipse.linuxtools.systemtap.ui.ide/documentation/html/gettingstarted/IDETutorial/lesson1.html to search index /home/boris/runnable/eclipse-linuxtool-indigo/configuration/org.eclipse.help.base/index/zh_TW.
+!STACK 0
+org.apache.lucene.demo.html.ParseException: Encountered "<EOF>" at line 30, column 59.
+Was expecting:
+    <CloseQuote2> ...
+    
+	at org.apache.lucene.demo.html.HTMLParser.generateParseException(HTMLParser.java:692)
+	at org.apache.lucene.demo.html.HTMLParser.jj_consume_token(HTMLParser.java:573)
+	at org.apache.lucene.demo.html.HTMLParser.ArgValue(HTMLParser.java:330)
+	at org.apache.lucene.demo.html.HTMLParser.Tag(HTMLParser.java:263)
+	at org.apache.lucene.demo.html.HTMLParser.HTMLDocument(HTMLParser.java:190)
+	at org.apache.lucene.demo.html.HTMLParser.parse(HTMLParser.java:93)
+	at org.eclipse.help.internal.search.HTMLDocParser.openDocument(HTMLDocParser.java:86)
+	at org.eclipse.help.internal.search.HTMLSearchParticipant.addDocument(HTMLSearchParticipant.java:58)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:230)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:252)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-19 00:43:01.554
+!MESSAGE Help document /org.eclipse.linuxtools.systemtap.ui.doc/doc/notices.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-19 00:43:01.554
+!MESSAGE Parse error occurred while adding document /org.eclipse.linuxtools.systemtap.ui.ide/documentation/html/gettingstarted/IDETutorial/lesson2.html to search index /home/boris/runnable/eclipse-linuxtool-indigo/configuration/org.eclipse.help.base/index/zh_TW.
+!STACK 0
+org.apache.lucene.demo.html.ParseException: Encountered "<EOF>" at line 70, column 1.
+Was expecting:
+    <CloseQuote2> ...
+    
+	at org.apache.lucene.demo.html.HTMLParser.generateParseException(HTMLParser.java:692)
+	at org.apache.lucene.demo.html.HTMLParser.jj_consume_token(HTMLParser.java:573)
+	at org.apache.lucene.demo.html.HTMLParser.ArgValue(HTMLParser.java:330)
+	at org.apache.lucene.demo.html.HTMLParser.Tag(HTMLParser.java:263)
+	at org.apache.lucene.demo.html.HTMLParser.HTMLDocument(HTMLParser.java:190)
+	at org.apache.lucene.demo.html.HTMLParser.parse(HTMLParser.java:93)
+	at org.eclipse.help.internal.search.HTMLDocParser.openDocument(HTMLDocParser.java:86)
+	at org.eclipse.help.internal.search.HTMLSearchParticipant.addDocument(HTMLSearchParticipant.java:58)
+	at org.eclipse.help.internal.search.SearchIndex.addDocument(SearchIndex.java:230)
+	at org.eclipse.help.internal.search.IndexingOperation.addDocuments(IndexingOperation.java:252)
+	at org.eclipse.help.internal.search.IndexingOperation.addNewDocuments(IndexingOperation.java:159)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:106)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:671)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:645)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-19 00:43:01.554
+!MESSAGE Help document /org.eclipse.mylyn.help.ui/doc/notices.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2012-06-19 00:43:01.554
+!MESSAGE Help document /org.eclipse.linuxtools.systemtap.ui.doc/Linux_Tools_Project/SystemTapGUI/User_Guide/User-Guide.html cannot be opened.

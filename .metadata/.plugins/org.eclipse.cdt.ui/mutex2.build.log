@@ -2,15 +2,6 @@
 **** Build of configuration Debug for project mutex2 ****
 
 make all 
-Building file: ../dotprod_serial.c
-Invoking: Cross GCC Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dotprod_serial.d" -MT"dotprod_serial.d" -o "dotprod_serial.o" "../dotprod_serial.c"
-Finished building: ../dotprod_serial.c
- 
-Building target: libmutex2.so
-Invoking: Cross GCC Linker
-gcc -shared -o "libmutex2.so"  ./dotprod_serial.o   
-Finished building target: libmutex2.so
- 
+make: Nothing to be done for `all'.
 
 **** Build Finished ****

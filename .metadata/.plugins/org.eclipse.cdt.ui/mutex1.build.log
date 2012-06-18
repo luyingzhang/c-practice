@@ -2,18 +2,6 @@
 **** Build of configuration Debug for project mutex1 ****
 
 make all 
-Building file: ../dotprod_mutex.c
-Invoking: Cross GCC Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"dotprod_mutex.d" -MT"dotprod_mutex.d" -o "dotprod_mutex.o" "../dotprod_mutex.c"
-Finished building: ../dotprod_mutex.c
- 
-Building target: mutex1
-Invoking: Cross GCC Linker
-gcc  -o "mutex1"  ./dotprod_mutex.o   
-./dotprod_mutex.o: In function `main':
-/home/boris/github/c-practice/mutex1/Debug/../dotprod_mutex.c:135: undefined reference to `pthread_create'
-/home/boris/github/c-practice/mutex1/Debug/../dotprod_mutex.c:142: undefined reference to `pthread_join'
-collect2: ld 回傳 1
-make: *** [mutex1] Error 1
+make: Nothing to be done for `all'.
 
 **** Build Finished ****

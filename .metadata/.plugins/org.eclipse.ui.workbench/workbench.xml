@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <workbench progressCount="37" version="2.0">
-=======
-<workbench progressCount="31" version="2.0">
->>>>>>> origin/master
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="26">
 <fastViewData fastViewLocation="1024"/>
@@ -22,11 +18,12 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1339710254344" focus="true" label="Workspace - C/C++">
+<page aggregateWorkingSetId="Aggregate for window 1339774471914" focus="true" label="Workspace - C/C++">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -35,42 +32,80 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="dotprod_mutex.c" partName="dotprod_mutex.c" path="/home/boris/github/c-practice/mutex1/dotprod_mutex.c" title="dotprod_mutex.c" tooltip="mutex1/dotprod_mutex.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mutex1/dotprod_mutex.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2" selectionTopPixel="0"/>
-</editor>
-<<<<<<< HEAD
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="shmr.c" partName="shmr.c" path="/home/boris/github/c-practice/mem_read/shmr.c" title="shmr.c" tooltip="mem_read/shmr.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mem_read/shmr.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-=======
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="dotprod_serial.c" partName="dotprod_serial.c" path="/home/boris/github/c-practice/mutex2/dotprod_serial.c" title="dotprod_serial.c" tooltip="mutex2/dotprod_serial.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="dotprod_serial.c" partName="dotprod_serial.c" path="/home/boris/github/c-practice/mutex2/dotprod_serial.c" title="dotprod_serial.c" tooltip="mutex2/dotprod_serial.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mutex2/dotprod_serial.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="31" selectionTopPixel="0"/>
->>>>>>> origin/master
+<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="1642" selectionTopPixel="1021"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="dotprod_mutex.c" partName="dotprod_mutex.c" path="/home/boris/github/c-practice/mutex1/dotprod_mutex.c" title="dotprod_mutex.c" tooltip="mutex1/dotprod_mutex.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mutex1/dotprod_mutex.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="10" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="shmw.c" partName="shmw.c" path="/home/boris/github/c-practice/mem_write/shmw.c" title="shmw.c" tooltip="mem_write/shmw.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mem_write/shmw.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="351" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="vowel2.c" partName="vowel2.c" path="/home/boris/github/c-practice/vowel2/src/vowel2.c" title="vowel2.c" tooltip="vowel2/src/vowel2.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/vowel2/src/vowel2.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="check1.c" partName="check1.c" path="/home/boris/github/c-practice/vowel2/check1.c" title="check1.c" tooltip="vowel2/check1.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/vowel2/check1.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="330" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="/home/boris/github/c-practice/check_test/main.c" title="main.c" tooltip="check_test/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/check_test/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="money.1.c" partName="money.1.c" path="/home/boris/github/c-practice/check_test/money.1.c" title="money.1.c" tooltip="check_test/money.1.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/check_test/money.1.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="money.1.h" partName="money.1.h" path="/home/boris/github/c-practice/check_test/money.1.h" title="money.1.h" tooltip="check_test/money.1.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/check_test/money.1.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="money.2.h" partName="money.2.h" path="/home/boris/github/c-practice/check_test/money.2.h" title="money.2.h" tooltip="check_test/money.2.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/check_test/money.2.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="money.3.c" partName="money.3.c" path="/home/boris/github/c-practice/check_test/money.3.c" title="money.3.c" tooltip="check_test/money.3.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/check_test/money.3.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="money.4.c" partName="money.4.c" path="/home/boris/github/c-practice/check_test/money.4.c" title="money.4.c" tooltip="check_test/money.4.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/check_test/money.4.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="money.c" partName="money.c" path="/home/boris/github/c-practice/check_test/money.c" title="money.c" tooltip="check_test/money.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/check_test/money.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="money.h" partName="money.h" path="/home/boris/github/c-practice/check_test/money.h" title="money.h" tooltip="check_test/money.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/check_test/money.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
+<view id="org.eclipse.cdt.testsrunner.resultsview" partName="C/C++ Unit">
+<viewState errorFilterAction="true" history_size="10" infoFilterAction="false" messagesOrderingAction="false" orientation="2" scrollLock="false" showFailedOnly="false" showFileNameOnly="false" showTestsInHierarchy="true" showTime="true" warningFilterAction="true" weight0="500" weight1="500"/>
+</view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors (12 items)"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
-<columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="502" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="493"/>
+<columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="610" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -150,6 +185,7 @@
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.cdt.testsrunner.resultsview"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.cdt.make.ui.views.MakeView"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
@@ -167,30 +203,31 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1069693" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
+<info folder="true" part="stickyFolderRight" ratio="0.7495069" ratioLeft="760" ratioRight="254" relationship="2" relative="topLeft">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.74882996" ratioLeft="480" ratioRight="161" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<info part="org.eclipse.ui.editorss" ratio="0.2495069" ratioLeft="253" ratioRight="761" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.70852536" ratioLeft="615" ratioRight="253" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.cdt.testsrunner.resultsview" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.cdt.testsrunner.resultsview" label="C/C++ Unit"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="topRight" ratio="0.74901444" ratioLeft="570" ratioRight="191" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.cdt.make.ui.views.MakeView" label="Make Target"/>
@@ -209,79 +246,146 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mutex2/mutex2.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mutex1/dotprod_serial.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mutex2/dotprod_serial.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/vowel1/check1"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/vowel1/check1.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mutex1/dotprod_mutex.c"/>
-<<<<<<< HEAD
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/m3000adt/io/shmw.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/m3000adt/io/cmd_count.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mem_write/shmw.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mem_read/shmr.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mutex1/dotprod_mutex.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mutex2/dotprod_serial.c"/>
-<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/usr/include/pthread.h" project="mutex1"/>
-=======
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mutex2/dotprod_serial.c"/>
->>>>>>> origin/master
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/vowel2/src/vowel2.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/vowel2/check1.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/check_test/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/check_test/money.1.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/check_test/money.1.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/check_test/money.2.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/check_test/money.3.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/check_test/money.4.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/check_test/money.5.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/check_test/money.6.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/check_test/money.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/check_test/money.h"/>
 </editors>
-<item historyLabel="mutex2.c" index="0">
-<position info="not_deleted" x="1198" y="0"/>
-</item>
-<item historyLabel="dotprod_serial.c" index="1">
+<item historyLabel="dotprod_serial.c" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="dotprod_mutex.c" index="2">
+<item historyLabel="check1" index="1">
+<position info="not_deleted" x="327" y="0"/>
+</item>
+<item historyLabel="dotprod_serial.c" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<<<<<<< HEAD
-<item historyLabel="shmr.c" index="4">
+<item historyLabel="check1.c" index="2">
+<position info="not_deleted" x="25" y="0"/>
+</item>
+<item historyLabel="dotprod_serial.c" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="dotprod_mutex.c" index="5">
-<position info="not_deleted" x="3035" y="4"/>
+<item historyLabel="check1.c" index="2">
+<position info="not_deleted" x="25" y="0"/>
 </item>
-<item historyLabel="dotprod_serial.c" index="6">
+<item historyLabel="dotprod_mutex.c" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="dotprod_mutex.c" index="5">
-<position info="not_deleted" x="3936" y="0"/>
+<item historyLabel="check1.c" index="2">
+<position info="not_deleted" x="25" y="0"/>
 </item>
-<item historyLabel="pthread.h" index="7">
-<position/>
-</item>
-<item historyLabel="dotprod_mutex.c" index="5">
-<position info="not_deleted" x="3784" y="0"/>
-</item>
-<item historyLabel="pthread.h" index="7">
-<position info="not_deleted" x="6125" y="14"/>
-</item>
-<item active="true" historyLabel="dotprod_mutex.c" index="5">
-<position info="not_deleted" x="3784" y="0"/>
-=======
-<item historyLabel="dotprod_serial.c" index="1">
+<item historyLabel="dotprod_serial.c" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="dotprod_serial.c" index="1">
-<position info="not_deleted" x="2099" y="0"/>
+<item historyLabel="check1.c" index="2">
+<position info="not_deleted" x="25" y="0"/>
 </item>
-<item historyLabel="dotprod_serial.c" index="1">
-<position info="not_deleted" x="2096" y="0"/>
+<item historyLabel="dotprod_serial.c" index="0">
+<position info="not_deleted" x="1634" y="8"/>
 </item>
-<item historyLabel="mutex2.c" index="0">
-<position info="not_deleted" x="1198" y="0"/>
+<item historyLabel="check1.c" index="2">
+<position info="not_deleted" x="30" y="0"/>
 </item>
-<item historyLabel="dotprod_mutex.c" index="2">
-<position info="not_deleted" x="1030" y="0"/>
+<item historyLabel="dotprod_serial.c" index="0">
+<position info="not_deleted" x="1642" y="14"/>
 </item>
-<item historyLabel="dotprod_serial.c" index="3">
-<position info="not_deleted" x="31" y="0"/>
+<item historyLabel="check1.c" index="2">
+<position info="not_deleted" x="30" y="0"/>
 </item>
-<item historyLabel="dotprod_mutex.c" index="2">
-<position info="not_deleted" x="2" y="0"/>
+<item historyLabel="dotprod_serial.c" index="0">
+<position info="not_deleted" x="1642" y="14"/>
 </item>
-<item active="true" historyLabel="dotprod_serial.c" index="3">
-<position info="not_deleted" x="31" y="0"/>
->>>>>>> origin/master
+<item historyLabel="check1.c" index="2">
+<position info="not_deleted" x="30" y="0"/>
+</item>
+<item historyLabel="dotprod_serial.c" index="0">
+<position info="not_deleted" x="1642" y="14"/>
+</item>
+<item historyLabel="shmw.c" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="check1.c" index="2">
+<position info="not_deleted" x="30" y="0"/>
+</item>
+<item historyLabel="shmw.c" index="4">
+<position info="not_deleted" x="351" y="0"/>
+</item>
+<item historyLabel="check1.c" index="2">
+<position info="not_deleted" x="109" y="0"/>
+</item>
+<item historyLabel="vowel2.c" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="check1.c" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.1.c" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.1.h" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.2.h" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.3.c" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.4.c" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.5.c" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.6.c" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.c" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.h" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.3.c" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.2.h" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.3.c" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.4.c" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.3.c" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.4.c" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="money.3.c" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="money.4.c" index="12">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -301,43 +405,50 @@
 </trimLayout>
 </window>
 <mruList>
-<<<<<<< HEAD
-<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="pthread.h" tooltip="/usr/include/pthread.h">
-<persistable path="/usr/include/pthread.h" project="mutex1"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="money.h" tooltip="check_test/money.h">
+<persistable path="/check_test/money.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dotprod_serial.c" tooltip="mutex2/dotprod_serial.c">
-<persistable path="/mutex2/dotprod_serial.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="money.c" tooltip="check_test/money.c">
+<persistable path="/check_test/money.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dotprod_mutex.c" tooltip="mutex1/dotprod_mutex.c">
-<persistable path="/mutex1/dotprod_mutex.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="money.6.c" tooltip="check_test/money.6.c">
+<persistable path="/check_test/money.6.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="shmr.c" tooltip="mem_read/shmr.c">
-<persistable path="/mem_read/shmr.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="money.5.c" tooltip="check_test/money.5.c">
+<persistable path="/check_test/money.5.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="money.4.c" tooltip="check_test/money.4.c">
+<persistable path="/check_test/money.4.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="money.3.c" tooltip="check_test/money.3.c">
+<persistable path="/check_test/money.3.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="money.2.h" tooltip="check_test/money.2.h">
+<persistable path="/check_test/money.2.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="money.1.h" tooltip="check_test/money.1.h">
+<persistable path="/check_test/money.1.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="money.1.c" tooltip="check_test/money.1.c">
+<persistable path="/check_test/money.1.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="check_test/main.c">
+<persistable path="/check_test/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="check1.c" tooltip="vowel2/check1.c">
+<persistable path="/vowel2/check1.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="vowel2.c" tooltip="vowel2/src/vowel2.c">
+<persistable path="/vowel2/src/vowel2.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="shmw.c" tooltip="mem_write/shmw.c">
 <persistable path="/mem_write/shmw.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="cmd_count.c" tooltip="m3000adt/io/cmd_count.c">
-<persistable path="/m3000adt/io/cmd_count.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="shmw.c" tooltip="m3000adt/io/shmw.c">
-<persistable path="/m3000adt/io/shmw.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mutex1.c" tooltip="mutex1/mutex1.c">
-<persistable path="/mutex1/mutex1.c"/>
-=======
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dotprod_serial.c" tooltip="mutex2/dotprod_serial.c">
 <persistable path="/mutex2/dotprod_serial.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dotprod_mutex.c" tooltip="mutex1/dotprod_mutex.c">
 <persistable path="/mutex1/dotprod_mutex.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dotprod_serial.c" tooltip="mutex1/dotprod_serial.c">
-<persistable path="/mutex1/dotprod_serial.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mutex2.c" tooltip="mutex2/mutex2.c">
-<persistable path="/mutex2/mutex2.c"/>
->>>>>>> origin/master
 </file>
 </mruList>
 </workbench>

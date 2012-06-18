@@ -1,0 +1,42 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../main.c \
+../money.1.c \
+../money.3.c \
+../money.4.c \
+../money.5.c \
+../money.6.c \
+../money.c 
+
+OBJS += \
+./main.o \
+./money.1.o \
+./money.3.o \
+./money.4.o \
+./money.5.o \
+./money.6.o \
+./money.o 
+
+C_DEPS += \
+./main.d \
+./money.1.d \
+./money.3.d \
+./money.4.d \
+./money.5.d \
+./money.6.d \
+./money.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+%.o: ../%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+
