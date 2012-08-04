@@ -4,3 +4,11 @@
 *.mk
 *.o
 *~
+.metadata/*
+.metadata/.plugins/*
+.metadata/.log
+.project
+.cproject
+.*
+.*/*
+
